@@ -1,5 +1,6 @@
 # typewwritter-animation
-//$w.onReady(function () { ... });: This code is executed when the Wix page is fully loaded and ready. It encapsulates the entire functionality.
+//$w.onReady(function () { ... });: 
+This code is executed when the Wix page is fully loaded and ready. It encapsulates the entire functionality.
 const TEXT = "Hello, I'm your virtual assistant How may I help you today?";: This line defines the text you want to display as the virtual assistant's message.
 let typewrittenText = " ";: It initializes an empty string typewrittenText that will be used to build the typewritten message character by character.
 const textArray = Array.from(TEXT);: This line converts the TEXT string into an array of individual characters. Each character will be typed out one by one.
